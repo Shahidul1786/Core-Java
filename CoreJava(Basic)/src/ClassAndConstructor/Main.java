@@ -9,6 +9,7 @@ package ClassAndConstructor;
 public class Main {
     
     public static void main(String[] args) {
+        
      Student st =   new Student(100, "shahid", "st@gmail.com", "01757941255", "java");
      
         System.out.println(st.id+" "+st.name+" "+st.email+" "+st.phoneNumber+" "+st.subject);

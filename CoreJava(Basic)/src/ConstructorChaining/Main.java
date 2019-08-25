@@ -16,6 +16,8 @@ public class Main {
         Student student  = new Student(100, "taj", "tj@gmail.com", "0185545644", "C#", "ghior");
         
         System.out.println(student.id + " "+student.name+" "+student.email+" "+student.phoneNumber+" "+student.subject+" "+student.address);
+        
+        
     }
     
 }

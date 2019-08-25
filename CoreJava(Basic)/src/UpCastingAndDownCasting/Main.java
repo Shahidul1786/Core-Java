@@ -5,6 +5,8 @@
  */
 package UpCastingAndDownCasting;
 
+
+
 /**
  *
  * @author Shahidul
@@ -33,6 +35,9 @@ public class Main {
         AndroidDev ad = (AndroidDev) developer;
         
         System.out.println("Total salary = "+ad.getSalary());
+        
+        
+        
         
     }
     
