@@ -11,4 +11,17 @@ package PassByValuePassByRefernce;
  */
 public class referenceTest {
     
+    public static void main(String[] args) {
+        
+        PassByreference r1  = new PassByreference();
+        r1.name = "taj";
+        
+        System.out.println(" before call : "+r1.name);
+        
+        r1.change(r1);// value cahnge
+        
+        System.out.println("after call : "+r1.name);
+        
+    }
+    
 }

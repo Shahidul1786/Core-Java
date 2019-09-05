@@ -11,4 +11,11 @@ package PassByValuePassByRefernce;
  */
 public class PassByreference {
     
+    String name;
+    
+    void change(PassByreference r2){
+        r2.name = "shahid";
+        
+    }
+    
 }
