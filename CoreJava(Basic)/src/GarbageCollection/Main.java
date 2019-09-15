@@ -32,7 +32,7 @@ public class Main {
         s1 = null; //    -----Garbage collection-----
        // s1.showData();
         
-        s3.showData();
+       s3.showData();
         
     }
     

@@ -29,14 +29,11 @@ class Employee extends Person{
     float salary ;
 
     public Employee(float salary, String name, String address, int age) {
-        
-        
         super(name, address, age);
         this.salary = salary;
     }
-    
-    
-   
+
+ 
     }
 
 
