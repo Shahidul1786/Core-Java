@@ -17,7 +17,7 @@ public class ArrayListSorting {
         number.add(27);
         number.add(0);
         
-        System.out.println("before sorting : "+number);
+        System.out.println("before sorting : "+number.get(0));
         
         Collections.sort(number);
         
