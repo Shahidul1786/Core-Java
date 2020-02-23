@@ -5,19 +5,23 @@
  */
 package OneToOneAssociation;
 
-public class Branch {
+/**
+ *
+ * @author Shahidul
+ */
+public class Bank {
     
-    public String branchName;
+    public String bankName;
 
-    public Branch() {
+    public Bank() {
     }
 
-    public String getBranchName() {
-        return branchName;
+    public Bank(String bankName) {
+        this.bankName = bankName;
     }
 
-    public Branch(String branchName) {
-        this.branchName = branchName;
+    public String getBankName() {
+        return bankName;
     }
     
     

@@ -12,12 +12,12 @@ public class Branch {
     public Branch() {
     }
 
-    public String getBranchName() {
-        return branchName;
-    }
-
     public Branch(String branchName) {
         this.branchName = branchName;
+    }
+
+    public String getBranchName() {
+        return branchName;
     }
     
     

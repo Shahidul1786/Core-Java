@@ -27,8 +27,7 @@ public class PrimeNumber {
             if (a%i ==0) {
                 c++;
                 
-            }
-             
+            }  
         }
         
         if (c==2) {

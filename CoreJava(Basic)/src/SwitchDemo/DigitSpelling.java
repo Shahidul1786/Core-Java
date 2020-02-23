@@ -37,9 +37,7 @@ public class DigitSpelling {
             default:
                 System.out.println("Not a digit");
                 
-                
-            
-            
+                 
         }
     }
     
